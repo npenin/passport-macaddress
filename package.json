@@ -1,0 +1,28 @@
+{
+	"name": "passport-macaddress",
+	"version": "0.1.0",
+	"description": "MAC authentication strategy for Passport.",
+	"author": {
+		"name": "Nicolas Penin",
+		"email": "nicolas.penin@dragon-angel.fr",
+		"url": "http://about.me/nicolaspenin"
+	},
+	"main": "./index.js",
+	"dependencies": {
+		"passport": "~0.1.1",
+		"node-arp": "latest"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/MIT"
+		}
+	],
+	"keywords": [
+		"passport",
+		"hash",
+		"auth",
+		"authn",
+		"authentication"
+	]
+}
