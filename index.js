@@ -47,7 +47,6 @@ util.inherits(Strategy, passport.Strategy);
  */
 Strategy.prototype.authenticate = function(req) {
     var self=this;
-	console.log(req.socket.remoteAddress);
     arp.getMAC(req.socket.remoteAddress, function(err, mac){
 		var verified=function(err, user, info) {
 			if (err) { return self.error(err); }
