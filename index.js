@@ -64,9 +64,9 @@ Strategy.prototype.authenticate = function(req) {
         else
         {
             if (self._passReqToCallback) {
-                this._verify(req, mac, verified);
+                self._verify(req, mac, verified);
             } else {
-                this._verify(mac, verified);
+                self._verify(mac, verified);
             }
         }
     });
